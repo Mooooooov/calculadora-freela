@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="calculadora.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <title>He4rt Calculadora</title>
+  </head>
+  <body>
+    <div class="pergunta">
+    <div class="main">
+      <div class="position">
+        <p class="pergunta" id="pergunta">Quantas horas você vai trabalhar por dia?</p>
+      </div>
+      <div class="fundo">
+        <div class="batata">
+          <div class="keynumb">
+            <form name="form">
+              <input type="number" class="textview" name="textview" maxlength="2" />
+            </form>
+            <table>
+              <tr>
+                <td><input type="button" value="7" onclick="insert(7)" /></td>
+                <td><input type="button" value="8" onclick="insert(8)" /></td>
+                <td><input type="button" value="9" onclick="insert(9)" /></td>
+              </tr>
+              <tr>
+                <td><input type="button" value="4" onclick="insert(4)" /></td>
+                <td><input type="button" value="5" onclick="insert(5)" /></td>
+                <td><input type="button" value="6" onclick="insert(6)" /></td>
+              </tr>
+              <tr>
+                <td><input type="button" value="1" onclick="insert(1)" /></td>
+                <td><input type="button" value="2" onclick="insert(2)" /></td>
+                <td><input type="button" value="3" onclick="insert(3)" /></td>
+              </tr>
+              <tr>
+                <td><input type="button" value="0" onclick="insert(0)" /></td>
+                <td class="zero">
+                    <input id="btncalc" type="button" value="=" style="background-color: green;" onclick="next()" />
+                </td>
+                <td class="zero">
+                    <input type="button" value="⌫" style="background-color: #cb394e;" onclick="clean()" /></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
