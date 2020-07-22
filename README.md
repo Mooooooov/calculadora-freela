@@ -11,14 +11,14 @@ A calculadora consiste em calcular o preço do serviço levando em conta:
 
 
 
-## :art: Design
+### :art: Design
 
 O design do site eu pensei de forma diferente. Quando eu estava vendo os outros projetos com a mesma proposta, eu via toda vez 4 inputs de formulários e no final o resultado. Nesse projeto eu tive a ideia de fazer no formato de uma calculadora.
 
 
 ![alt text](https://i.imgur.com/S5xO3vQ.png)
 
-## :computer: Tecnologias Usadas
+### :computer: Tecnologias
 
 - HTML5
 - CSS3
